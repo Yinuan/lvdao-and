@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_method_name">方案名称</string>
+    <string name="add_method_symptom">适应症状</string>
+    <string name="add_method_acup">已选穴位</string>
+</resources>

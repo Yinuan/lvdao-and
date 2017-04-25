@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#ffffff"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+           <RelativeLayout
+
+               android:layout_width="match_parent"
+               android:layout_height="40dp">
+
+               <TextView
+                   android:layout_centerInParent="true"
+                   android:text="消息提醒"
+                   android:textSize="18sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+           </RelativeLayout>
+    <View
+        android:background="@color/bg_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+
+    </View>
+
+    <RelativeLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <EditText
+            android:id="@+id/pop_name"
+            android:layout_centerInParent="true"
+            android:hint="请输入方案名称"
+            android:textSize="14sp"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <View
+        android:background="@color/bg_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+
+    </View>
+    <RelativeLayout
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <EditText
+            android:id="@+id/pop_pass"
+            android:layout_centerInParent="true"
+            android:hint="请输入适应症"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <View
+        android:background="@color/bg_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+
+    </View>
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/cancle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="取消"
+            android:textSize="18sp"
+            android:textColor="@color/btn_one_bg"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/confirm"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="确认"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/btn_one_bg"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

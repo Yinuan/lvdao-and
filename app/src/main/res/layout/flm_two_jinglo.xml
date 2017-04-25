@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.hg.jacob.lvdao.widget.ClearEditText
+        android:id="@+id/search"
+        android:background="@drawable/btn_search"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:drawablePadding="4dp"
+        android:hint="请输入搜索内容"
+        android:textSize="12sp"
+        android:layout_height="38dp"
+        android:drawableLeft="@drawable/item_search"/>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

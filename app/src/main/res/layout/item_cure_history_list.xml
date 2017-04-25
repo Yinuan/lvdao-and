@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:minHeight="60dp"
+              android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="match_parent">
+
+       <LinearLayout
+          android:layout_marginBottom="2dp"
+           android:layout_above="@+id/histroy_middle"
+           android:orientation="horizontal"
+           android:layout_marginLeft="8dp"
+           android:layout_width="wrap_content"
+           android:layout_height="24dp">
+           <TextView
+               android:text="治疗时间: "
+               android:textColor="@color/txt_color_3"
+               android:textSize="14sp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:text="2017-03-30 16:30"
+               android:id="@+id/history_time"
+               android:textColor="@color/txt_color_2"
+               android:textSize="14sp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+       </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:id="@+id/histroy_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp">
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/histroy_middle"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp">
+            <TextView
+                android:text="穴位: "
+                android:textColor="@color/txt_color_3"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="承满 大亨"
+                android:id="@+id/history_acup"
+                android:textColor="@color/txt_color_2"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/history_model"
+            android:layout_centerInParent="true"
+            android:text="普通模式"
+            android:textSize="14sp"
+            android:textColor="@color/btn_press"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</LinearLayout>

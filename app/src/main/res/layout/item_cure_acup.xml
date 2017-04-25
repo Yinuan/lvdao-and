@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:gravity="right"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/acup_btn"
+        android:layout_width="36dp"
+        android:ellipsize="middle"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textSize="12sp"
+        android:background="@drawable/bg_cure_text"
+        android:layout_height="24dp"/>
+
+</LinearLayout>

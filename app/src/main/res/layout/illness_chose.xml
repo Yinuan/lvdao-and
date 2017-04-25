@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_below="@+id/chose_acup_layout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/bg_gray"
+        android:layout_height="1dp"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="概述"
+            android:layout_margin="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/btn_press"/>
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:textSize="14sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/bg_gray"
+        android:layout_height="1dp"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="临床表现"
+            android:layout_margin="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/btn_press"/>
+
+        <TextView
+            android:id="@+id/tv_style1"
+            android:textSize="14sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_style2"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_style3"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_style4"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/bg_gray"
+        android:layout_height="1dp"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="治疗方案"
+            android:layout_margin="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/btn_press"/>
+        <include layout="@layout/item_cure_method"></include>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/bg_gray"
+        android:layout_height="1dp"></View>
+    <LinearLayout
+        android:id="@+id/layout_caonidaye"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="参考治法"
+            android:layout_margin="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/btn_press"/>
+
+        <include layout="@layout/item_cure_method"></include>
+
+    </LinearLayout>
+
+</LinearLayout>

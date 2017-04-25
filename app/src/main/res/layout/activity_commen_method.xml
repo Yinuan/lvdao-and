@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_commen_method"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hg.jacob.lvdao.activity.CommenMethodActivity">
+
+
+    <!--标题栏-->
+   <include layout="@layout/top_menu"></include>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/history_null"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/history_null"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="暂无常用方案记录"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_history"
+            android:dividerHeight="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+    <WebView
+        android:id="@+id/comm_method_webview"
+        android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    </WebView>
+
+</LinearLayout>

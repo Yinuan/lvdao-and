@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <!--app文字大小的定义-->
+
+    <!--app主体五大碎片-->
+    <!--标题栏-->
+    <dimen name="top_title">18sp</dimen>
+    <!--table选择栏-->
+    <dimen name="table_title">16sp</dimen>
+    <!--搜索栏-->
+    <dimen name="search_title">12sp</dimen>
+    <!--listview显然的内容栏-->
+    <dimen name="lv_contet">14sp</dimen>
+    <!--viewstub下面的按钮文字大小-->
+    <dimen name="stub_title">12sp</dimen>
+    <!--菜单栏-->
+    <dimen name="menu_title">12sp</dimen>
+
+    <!--疾病治疗点击进去的疾病详情-->
+    <!--标题栏带返回按钮-->
+    <dimen name="top_title_back">18sp</dimen>
+    <!--已选穴位-->
+    <dimen name="chosed_acup">16sp</dimen>
+    <!--概述，内容主体-->
+    <dimen name="content_txt">12sp</dimen>
+    <!--概述下的文字详情介绍-->
+    <dimen name="content_msg_txt">10sp</dimen>
+
+    <!--概述下的文字详情介绍-->
+    <dimen name="my_linelayout">14sp</dimen>
+
+</resources>

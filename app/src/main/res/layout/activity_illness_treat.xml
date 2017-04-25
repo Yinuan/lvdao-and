@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.hg.jacob.lvdao.activity.IllnessTreatActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+
+
+
+    <include layout="@layout/top_menu"></include>
+
+    <!--已选穴位-->
+    <LinearLayout
+
+        android:id="@+id/chose_acup_layout"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lauou_s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:text="已选穴位"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <GridView
+                android:layout_centerVertical="true"
+                android:id="@+id/grid_chose"
+                android:numColumns="4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </GridView>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <!--中间主体-->
+    <include layout="@layout/illness_chose"></include>
+
+    <!--底部按钮选择-->
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_below="@+id/layout_caonidaye"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/chose_acup"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/btn_press"
+                android:text="选择穴位"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="1dp"
+            android:background="@color/bg_gray"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="match_parent">
+
+        </View>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/chose_method"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="通道配方"/>
+        </RelativeLayout>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#ffffff"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp">
+
+        <TextView
+          android:layout_marginLeft="8dp"
+          android:layout_marginTop="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/pop_cancle"
+          android:textColor="@color/btn_press"
+            android:text="@string/pop_cancle"
+           android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/title"
+            android:text="@string/pop_model"
+            android:textSize="14sp"
+            android:textColor="@color/txt_color_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+           android:layout_marginRight="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+           android:textColor="@color/btn_press"
+            android:text="@string/pop_cconfrim"
+            android:textSize="12sp"
+            android:id="@+id/pop_confrim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <com.hg.jacob.lvdao.widget.WheelView
+
+        android:id="@+id/wheelview_pop"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.hg.jacob.lvdao.widget.WheelView>
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">lvdao</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- 新增治疗方案 -->
+    <string name="add_method_name">方案名称</string>
+    <string name="add_method_symptom">适应症状</string>
+    <string name="add_method_acup">已选穴位</string>
+    <string name="add_method_save">保存</string>
+
+    <string name="list_acup">穴位</string>
+    <string name="list_model">模式</string>
+    <string name="list_rate">频率</string>
+    <string name="list_strong">强度</string>
+    <string name="list_time">时间</string>
+    <string name="list_acup_set">无</string>
+    <string name="list_model_set">无</string>
+    <string name="list_rate_set">0</string>
+    <string name="list_strong_set">0</string>
+    <string name="list_time_set">00:00</string>
+
+
+    <string name="hint_method_name">请输入方案名称</string>
+    <string name="hint_method_symtom">请输入适应症</string>
+    <string name="hint_method_acup">暂无已选信息</string>
+
+    <string name="chosed_acup">选择穴位</string>
+
+    <!-- 治疗方案详情 -->
+    <string name="method_detail_edit">编辑</string>
+    <string name="method_detail_name">方案一</string>
+    <string name="method_detail_symptom">肌肉酸痛</string>
+    <string name="method_detail_acup_chosed">承满</string>
+    <string name="method_detail_list_acup">尘螨</string>
+    <string name="method_detail_list_model">循环</string>
+    <string name="method_detail_list_rate">30</string>
+    <string name="method_detail_list_strong">30</string>
+    <string name="method_detail_list_time">30:00</string>
+
+    <!-- pop窗口 -->
+    <string name="pop_cancle">取消</string>
+    <string name="pop_cconfrim">确定</string>
+    <string name="pop_model">模式</string>
+    <string name="pop_strong">强度</string>
+    <string name="pop_rate">频率</string>
+    <string name="pop_acup_title">选择穴位</string>
+    <string name="pop_acup_left">左</string>
+    <string name="pop_acup_right">右</string>
+
+    <!-- 登录注册-->
+    <string name="login">登录</string>
+    <string name="find_pass">找回密码</string>
+    <string name="regist">注册</string>
+    <string name="login_signup">
+        <u>立即注册</u>
+    </string>
+    <string name="login_account">请输入您的账号</string>
+    <string name="login_pass">请输入您的密码</string>
+    <string name="login_mobile">请输入您的手机号码</string>
+    <string name="login_code">请输入验证码</string>
+    <string name="login_gcode">获取验证码</string>
+    <string name="login_apass">请再次输入密码</string>
+    <string name="login_fpass">忘记密码？</string>
+    <string name="login_newpass">请输入您的新密码</string>
+    <string name="login_napass">请再次输入新密码</string>
+
+    <!-- 我的-->
+    <string name="mine_1">意见反馈</string>
+    <string name="mine_2">关于我们</string>
+    <string name="mine_3">音乐管理</string>
+    <string name="mine_4">设置语言</string>
+    <string name="mine_5">数据同步</string>
+    <string name="mine_6">退出登录</string>
+    <string name="mine_Language">简体中文</string>
+
+    <!--pop-->
+    <!--设备-->
+    <string name="pop_decive_title">消息提醒</string>
+    <string name="pop_decive_content">打开蓝牙，允许Intelligent Physiotherapy\n Decive连接设备</string>
+    <string name="pop_decive_confrim">设置</string>
+    <string name="pop_decive_cancle">好</string>
+    <!--音乐-->
+    <string name="pop_music_title">选择穴位</string>
+    <string name="pop_music_confrim">确定</string>
+    <string name="pop_music_cancle">取消</string>
+    <string name="pop_music_left">左</string>
+    <string name="pop_music_right">右</string>
+
+</resources>
